@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-      <title>My Awesome Spring Boot App</title>
+      <title>Spring Boot App</title>
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -13,7 +13,7 @@
  
 <div class="container" ng-app="app">
  
-    <h3 style="color:blue"> My Awesome Spring Boot App Running on EKS Cluster </h3>
+    <h3 style="color:blue"> Online Form Fill-up </h3>
     
     <div ng-controller="postcontroller">
         <form class="form-horizontal" name="customerForm" ng-submit="submitForm()">
@@ -21,14 +21,14 @@
                 <label class="control-label col-sm-2" for="firstnameID">First Name:</label>
                 <div class="col-sm-5">
                     <input type="text" class="form-control" name="firstname" id="firstnameID"
-                        placeholder="Enter FirstName" ng-model="firstname"/>
+                        placeholder="Enter Your FirstName" ng-model="firstname"/>
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="lastnameID">Last Name:</label>
                 <div class="col-sm-5">
                     <input type="text" class="form-control" name="lastname" id="lastnameID"
-                        placeholder="Enter LastName" ng-model="lastname"/>
+                        placeholder="Enter Your LastName" ng-model="lastname"/>
                 </div>
             </div>
             <div class="form-group">
