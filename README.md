@@ -1,6 +1,6 @@
 # Springboot-Application
 
-This is a demo project for practicing Kubernetes + Docker with Spring boot.
+This is a demo project for practicing Kubernetes + Docker + Helm Chart with Spring boot.
 ![image](https://github.com/parvaze-masud/springboot-application/assets/141165442/4a83b42e-1260-4838-a0bb-f4e003cee4ba)
 
 helm create springboot-helm
