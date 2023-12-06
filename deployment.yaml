@@ -1,19 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-ak-deployment
+  name: springboot-deployment
+  namespace: dev
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: angular-app
+      app: springboot-app
   template:
     metadata:
       labels:
-        app: angular-app
+        app: springboot-app
     spec:
       containers:
-      - name: my-angular-app
+      - name: springboot-app
         image: parvazemasud/springbootapp:v1
         imagePullPolicy: Always
         ports:
