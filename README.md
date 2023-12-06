@@ -3,6 +3,12 @@
 This is a demo project for practicing Kubernetes + Docker + Helm Chart with Spring boot.
 ![image](https://github.com/parvaze-masud/springboot-application/assets/141165442/4a83b42e-1260-4838-a0bb-f4e003cee4ba)
 
+#Install Helm:
+WEB LINK: https://helm.sh/docs/intro/install/
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
+
 helm create springboot-helm
 
 tree springboot-helm
